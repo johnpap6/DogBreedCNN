@@ -17,6 +17,25 @@ Following libraries were used:
 - numpy
 - glob
 - cv2
+- random
+- matplotlib
+- ResNet50
+- VGG16
+- tdqm
+- PIL
+
+## Files
+The files in this project are the following:
+- bottleneck_features : These are the bottleneck features for the the ResNet50 networks
+- haarcascades : A human detector pulled from OpenCV's implementation https://github.com/opencv/opencv/tree/master/data/haarcascades
+- images : Some sample images used in the notebook 
+- requirements : The environment requirements for different environments
+- saved_models : Saved ML models
+-LICENSE : the license of this project
+- README.md : the readme file of this project
+- dog_app.html : an html export of the jupyter notebook
+- dog_app.ipynb : the jupyter notebook that holds the implementation of this project
+- extract_bottleneck_features.py - helper python file to extract bottlenect features
 
 ## Acknowledgements
 
